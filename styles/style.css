@@ -38,6 +38,7 @@ main {
     background: #b3ffb3;
     width: 100%;
     height:100vh;
+    margin: 0;
 }
 
 
@@ -64,4 +65,38 @@ footer{
     position: relative;
     width: 5%;
     
+}
+
+#shades {
+    width: 40%;
+    height: 55%;
+    background: gray;
+    border: solid;
+    border-style: none groove groove none;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: -20%;
+    margin-left: 54%;
+    padding: 1%;
+    padding-bottom: 2%;
+    
+}
+
+
+iframe {
+    height: 60%;
+    width:45%;
+    border-radius: 20px;
+    position: relative;
+    margin-left: 3%;
+    top: 20%;
+}
+
+button{
+    width: 20%;
+    height:10%;
+    border-radius: 15px; 
+    position: relative;
+    margin-left: 40%;
+    margin-top: -5%;
 }
